@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ExcelValidator::VERSION
   spec.authors       = ["Aaditi Jain"]
   spec.email         = ["aaditi2290@gmail.com"]
-  spec.description   = %q{provides methods to validates the content of excel file}
-  spec.summary       = %q{provides methods to validates the content of excel file}
+  spec.description   = %q{provides methods to validate the content of an excel(xls/xlsx) file}
+  spec.summary       = %q{provides methods to validate the content of an excel(xls/xlsx) file}
   spec.homepage      = "https://github.com/Aaditi/excel_validator.git"
   spec.license       = "MIT"
 
