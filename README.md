@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/excel_validator.png)](http://badge.fury.io/rb/excel_validator)
 # ExcelValidator
 
   provides methods to validate the content of an excel(xls/xlsx) file
@@ -28,6 +29,7 @@ Or install it yourself as:
   
 
   3) **f.first_row_is?(2, 5)**
+
   #returns true if the first non-empty row of 2nd sheet in the file is 12
 
 
@@ -62,10 +64,12 @@ Or install it yourself as:
   
 
   10) **f.empty_sheets_present?**
+  
   #returns true if there are empty sheets present in the file.
   
   
   11) **f.keyword_present?(2, 'ClassA')**
+  
   #returns true if keyword 'ClassA' is present the 2nd sheet of the file. If the keyword is case sensitive, do f.keyword_present?(2, 'ClassA', true)
   
 
